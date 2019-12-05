@@ -41,7 +41,6 @@
   color: white;
   border-radius: 30px;
   z-index: 1000;
-  box-shadow:0 3px 10px #fe7f35;
 }
   .top1{
     position: relative;

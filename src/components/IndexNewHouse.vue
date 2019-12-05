@@ -251,4 +251,7 @@
     top:-215px;
     z-index: 0;
   }
+  .Baz{
+    box-shadow: none;
+  }
 </style>

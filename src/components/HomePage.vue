@@ -8,6 +8,10 @@
       <TwoHandHouse></TwoHandHouse>
       <SmallCommunity></SmallCommunity>
       <AdvertisingSpace></AdvertisingSpace>
+      <BaiKe></BaiKe>
+      <NewCenterMessage></NewCenterMessage>
+      <HelpMePrice></HelpMePrice>
+      <Foot></Foot>
     </div>
 </template>
 
@@ -21,9 +25,17 @@
   import DataStats from "./dataStats";
   import SmallCommunity from "./SmallCommunity";
   import AdvertisingSpace from "./AdvertisingSpace";
+  import BaiKe from "./BaiKe";
+  import NewCenterMessage from "./NewCenterMessage";
+  import HelpMePrice from "./HelpMePrice";
+  import Foot from "./Common/Foot";
     export default {
         name: "HomePage",
         components: {
+            Foot,
+            HelpMePrice,
+            NewCenterMessage,
+            BaiKe,
             AdvertisingSpace,
             SmallCommunity,  DataStats, NewHouses, RightBox, TwoHandHouse, IndexNewHouse, Banner, Header}
     }
