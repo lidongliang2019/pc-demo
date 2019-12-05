@@ -206,5 +206,6 @@
     position: relative;
     font-size: 16px;
     margin-left: 10px;
+    color: #000000;
   }
 </style>

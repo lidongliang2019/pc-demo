@@ -108,11 +108,12 @@
 </template>
 
 <script>
+  import NewHouses from "./NewHouses";
     export default {
         name: "IndexNewHouse",
         data() {
             return {
-                items: ['Foo', 'Bar', 'Baz'],
+                items: ['Foo', 'Bar',"da"],
                 addValue: 'match',
                 headValue: '1231',
             }
