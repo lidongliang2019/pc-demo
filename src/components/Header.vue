@@ -5,7 +5,7 @@
         <el-col :span="24">
           <div class="grid-content bg-purple-dark">
             <div class="tab-btn">
-              <el-button type="text" style="color: black" v-for="tabButton in tabButtons">{{tabButton.tabBtn}}
+              <el-button type="text" class="navigationBtn" style="color: black;margin-left: 20px" v-for="tabButton in tabButtons">{{tabButton.tabBtn}}
               </el-button>
               <span class="pB">
                 <el-dropdown>
@@ -77,7 +77,7 @@
 
   .logo-icon {
     position: absolute;
-    top: 0px;
+    top: 0;
     left: 140px;
     width: 133px;
     height: 90px;
@@ -95,7 +95,7 @@
   .tab-btn {
     line-height: 80px;
     position: relative;
-    left: 400px;
+    left: 430px;
     width: auto;
     overflow: hidden;
   }
@@ -105,5 +105,8 @@
   .el-dropdown-link:hover{
     color: #fe7f35;
   }
+.navigationBtn:hover{
+  color: #fe7f35!important;
+}
 
 </style>

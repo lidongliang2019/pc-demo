@@ -13,7 +13,7 @@
           <i class="el-icon-s-promotion"></i>
           <span style="position:relative;top: -5px;">友情链接</span>
           <span style=";position: relative;top: -5px; margin-left: 20px;font-size: 14px;">
-              <a href="" style="color: #8c8c8c;text-decoration:none;transition:0.5s;" >
+              <a href="" style="color: #8c8c8c;text-decoration:none;transition:0.5s;" class="cc" >
                 迅客驿站
               </a>
             </span>
@@ -137,6 +137,9 @@
     text-decoration:none;
     color: white;
   }
+  .alterA:hover{
+    color: #fe7f35!important;
+  }
   .phoneNumber {
     position: absolute;
     left: 250px;
@@ -156,8 +159,11 @@
     min-width: 130px;
     margin-left: 50px;
   }
+  .cc:hover{
+    color: #fe7f35!important;
+  }
   .bb:hover {
-    color: #fe7f35;
+    color: #fe7f35!important;
   }
   .content{
     position: relative;
