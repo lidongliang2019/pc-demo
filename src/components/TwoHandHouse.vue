@@ -94,7 +94,7 @@
     margin: 0;
     width: 100%;
     height: auto;
-    background-color: #ffffff;
+    background-color:#f8f8f8;
   }
 
   .Header {
@@ -113,6 +113,10 @@
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: #ffffff;
+    transition: all.6s;
+  }
+  .photo{
+    transition: all.6s;
   }
 
   .twoHandHouse {

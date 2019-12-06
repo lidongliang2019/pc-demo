@@ -143,6 +143,9 @@
     top: -280px;
     left: 250px;
     z-index: 1;
+    transition: all.6s;
   }
-
+  .rightImage:hover{
+    transform: scale(1.05);
+  }
 </style>

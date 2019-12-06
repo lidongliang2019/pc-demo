@@ -1,6 +1,5 @@
 <template>
     <div class="container" >
-      <div class="rightBox"></div>
       <div class="top1">
         <i class="el-icon-top"></i>
       </div>
@@ -41,6 +40,8 @@
   color: white;
   border-radius: 30px;
   z-index: 1000;
+  transition: 300ms;
+  transform: translateY(80px);
 }
   .top1{
     position: relative;

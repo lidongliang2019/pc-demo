@@ -104,6 +104,7 @@
         <img src="../assets/images/huxingtu_15.gif" class="newHouseImages">
       </div>
     </div>
+    <NewHouses class="finallyNewHouse"></NewHouses>
   </div>
 </template>
 
@@ -111,9 +112,10 @@
   import NewHouses from "./NewHouses";
     export default {
         name: "IndexNewHouse",
+        components: {NewHouses},
         data() {
             return {
-                items: ['Foo', 'Bar',"da"],
+                items: ['Foo', 'Bar'],
                 addValue: 'match',
                 headValue: '1231',
             }
@@ -167,9 +169,12 @@
   .newHouseImages {
     width: 250px;
     height: 300px;
+    transition: all.6s;
     box-shadow: 15px 15px 20px #ebebeb;
   }
-
+  .newHouseImages:hover{
+    transform: scale(1.05);
+  }
   .newHouseDetail {
     position: absolute;
     left: 250px;
@@ -183,11 +188,13 @@
 
   .newHouseName {
     font-size: 24px;
-    line-height: 0px;
+    line-height: 0;
     font-weight: 600;
     margin-left: 5px;
   }
-
+  .newHouseName:hover{
+    color: #fe7f35!important;
+  }
   .rightPrice {
     color: red;
     position: absolute;
@@ -245,14 +252,20 @@
     background-color: #fe7f35;
     border-radius: 0;
     border: none;
-    box-shadow: 2px 2px 5px #fe7f35;
+    box-shadow: 2px 2px 6px #fe7f35;
   }
-  .blackImage{
+  .el-icon-map-location:hover{
+    color: #fe7f35;
+  }
+  .finallyNewHouse{
     position: relative;
-    top:-215px;
-    z-index: 0;
+    top: 0;
+    box-shadow: none;
   }
-  .Baz{
+  .container >>>.newHouseImagesSon{
+    box-shadow: none;
+  }
+  .container >>> .newHouseDetailSon{
     box-shadow: none;
   }
 </style>

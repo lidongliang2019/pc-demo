@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="newHouseBox" >
-      <div class="newHouseDetail">
+      <div class="newHouseDetailSon">
         <div class="topContent">
           <p class="newHouseName">
             宁宇家园
@@ -76,7 +76,7 @@
         </div>
       </div>
       <div class="imageBox">
-        <img src="../assets/images/huxingtu_15.gif" class="newHouseImages">
+        <img src="../assets/images/huxingtu_15.gif" class="newHouseImagesSon">
       </div>
     </div>
 <!--    <img class="blackImage" src="../assets/images/diTu_02.gif">-->
@@ -106,13 +106,17 @@
     z-index: 100;
   }
 
-  .newHouseImages {
+  .newHouseImagesSon {
     width: 250px;
     height: 300px;
     box-shadow: 15px 15px 20px #ebebeb;
+    transition: all.6s;
+  }
+  .newHouseImagesSon:hover{
+    transform: scale(1.05);
   }
 
-  .newHouseDetail {
+  .newHouseDetailSon {
     position: absolute;
     left: 250px;
     padding-left: 40px;
@@ -125,7 +129,7 @@
 
   .newHouseName {
     font-size: 24px;
-    line-height: 0px;
+    line-height: 0;
     font-weight: 600;
     margin-left: 5px;
   }
@@ -187,7 +191,7 @@
     background-color: #fe7f35;
     border-radius: 0;
     border: none;
-    box-shadow: 2px 2px 5px #fe7f35;
+    box-shadow: 2px 2px 6px #fe7f35;
   }
   .blackImage{
     position: relative;

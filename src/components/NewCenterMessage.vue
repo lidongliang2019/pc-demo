@@ -60,6 +60,10 @@
     height: 116px;
     margin-bottom: 30px;
   }
+  .textCenter:hover{
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #DCDCDC;
+  }
   .title{
     position: absolute;
     top: -20px;
@@ -74,10 +78,12 @@
     position: absolute;
     top: 20px;
     left: 195px;
+    color: #8c8c8c;
   }
   .bottomDate{
     position: absolute;
-    top: 85px;
+    top: 75px;
     left: 195px;
+    color: #8c8c8c;
   }
 </style>
