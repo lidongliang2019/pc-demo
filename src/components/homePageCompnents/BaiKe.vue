@@ -1,7 +1,7 @@
 <template>
     <div class="container">
       <div class="headerBox">
-        <img src="../assets/images/baike_09.gif" class="baiKeIcon">
+        <img src="../../assets/images/baike_09.gif" class="baiKeIcon">
         <span style="color: #fe7f35">
           百科
         </span>
@@ -13,7 +13,7 @@
       </div>
       <div class="centerContent">
         <div class="leftContent">
-          <img src="../assets/images/left1_13.gif">
+          <img src="../../assets/images/left1_13.gif">
           <div class="position">
             <div class="title">
               购房通知
@@ -23,7 +23,7 @@
           </span>
           </div>
           <div class="listImage">
-            <img  style="width: 300px; height: 160px" src="../assets/images/listImage_23.gif">
+            <img  style="width: 300px; height: 160px" src="../../assets/images/listImage_23.gif">
             <div class="bottomTitle">
               宽大两房和紧凑小三房该如何选择
             </div>
@@ -44,7 +44,7 @@
           </div>
         </div>
         <div class="content">
-          <img src="../assets/images/left2_15.gif">
+          <img src="../../assets/images/left2_15.gif">
           <div class="position">
             <div class="title">
               购房通知
@@ -54,7 +54,7 @@
           </span>
           </div>
           <div class="listImage">
-            <img  style="width: 300px; height: 160px" src="../assets/images/listImage_23.gif">
+            <img  style="width: 300px; height: 160px" src="../../assets/images/listImage_23.gif">
             <div class="bottomTitle">
               宽大两房和紧凑小三房该如何选择
             </div>
@@ -75,7 +75,7 @@
           </div>
         </div>
         <div class="rightContent">
-          <img src="../assets/images/left3_17.gif">
+          <img src="../../assets/images/left3_17.gif">
           <div class="position">
             <div class="title">
               购房通知
@@ -85,7 +85,7 @@
           </span>
           </div>
           <div class="listImage">
-            <img  style="width: 300px; height: 160px" src="../assets/images/listImage_23.gif">
+            <img  style="width: 300px; height: 160px" src="../../assets/images/listImage_23.gif">
             <div class="bottomTitle">
               宽大两房和紧凑小三房该如何选择
             </div>

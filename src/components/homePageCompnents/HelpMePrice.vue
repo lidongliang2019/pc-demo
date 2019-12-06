@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-      <img src="../assets/images/homesafatu_33.gif" class="backgroundImage">
+      <img src="../../assets/images/homesafatu_33.gif" class="backgroundImage">
       <div class="dataInput">
         <el-input class="oneInput" placeholder="填写购买房子所在的小区名称"></el-input>
         <div class="twoInputs">

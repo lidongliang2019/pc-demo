@@ -1,9 +1,9 @@
 <template>
   <div class="container">
-    <img class="bannerImage" src="../assets/images/bannerImage.gif">
+    <img class="bannerImage" src="../../assets/images/bannerImage.gif">
 
-      <img class="centerTitle" src="../assets/images/oneTitle_03.gif">
-      <img class="flash" src="../assets/images/flash_07.gif">
+      <img class="centerTitle" src="../../assets/images/oneTitle_03.gif">
+      <img class="flash" src="../../assets/images/flash_07.gif">
       <span class="twoLeftTitle">{{twoLeftTitle}}</span>
       <span class="twoRightTitle">{{twoRightTitle}}</span>
       <div class="tabsInput">

@@ -3,7 +3,7 @@
 <HeaderTitle></HeaderTitle>
 <div class="centerContent">
 <div class="textCenter" v-for="item in lists" :key="item">
-<img src="../assets/images/xinwen_30.gif">
+<img src="../../assets/images/xinwen_30.gif">
   <h2 class="title">卖房一般需要什么流程？</h2>
     <i class="el-icon-document"></i>
     <p class="textDetails">房管局网签是什么意思？卖房的整个流程与买方付款方式相关，全程流程相对于贷款……</p>
@@ -14,7 +14,7 @@
 </template>
 
 <script>
-  import HeaderTitle from "./Common/HeaderTitle";
+  import HeaderTitle from "../Common/HeaderTitle";
     export default {
         name: "NewCenterMessage",
         components: {HeaderTitle},

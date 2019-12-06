@@ -16,18 +16,18 @@
 </template>
 
 <script>
-  import Header from "./Header";
-  import Banner from "./Banner";
-  import IndexNewHouse from "./IndexNewHouse";
-  import TwoHandHouse from "./TwoHandHouse";
-  import RightBox from "./RightBox";
-  import NewHouses from "./NewHouses";
-  import DataStats from "./dataStats";
-  import SmallCommunity from "./SmallCommunity";
-  import AdvertisingSpace from "./AdvertisingSpace";
-  import BaiKe from "./BaiKe";
-  import NewCenterMessage from "./NewCenterMessage";
-  import HelpMePrice from "./HelpMePrice";
+  import Header from "./homePageCompnents/Header";
+  import Banner from "./homePageCompnents/Banner";
+  import IndexNewHouse from "./homePageCompnents/IndexNewHouse";
+  import TwoHandHouse from "./homePageCompnents/TwoHandHouse";
+  import RightBox from "./homePageCompnents/RightBox";
+  import NewHouses from "./homePageCompnents/NewHouses";
+  import DataStats from "./homePageCompnents/dataStats";
+  import SmallCommunity from "./homePageCompnents/SmallCommunity";
+  import AdvertisingSpace from "./homePageCompnents/AdvertisingSpace";
+  import BaiKe from "./homePageCompnents/BaiKe";
+  import NewCenterMessage from "./homePageCompnents/NewCenterMessage";
+  import HelpMePrice from "./homePageCompnents/HelpMePrice";
   import Foot from "./Common/Foot";
     export default {
         name: "HomePage",

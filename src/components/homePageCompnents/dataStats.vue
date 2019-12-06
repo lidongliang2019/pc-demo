@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <img class="blackImage" src="../assets/images/diTu_02.gif">
+    <img class="blackImage" src="../../assets/images/diTu_02.gif">
     <div class="dataDisplay">
       <div class="left1">
         <p class="icon-top">
@@ -14,7 +14,7 @@
         <p class="textState">
           苏州<span style="color: #fe7f35">本月</span>二手房参考<br/>均价 （元/㎡）
         </p>
-        <img src="../assets/images/bingtu_04.gif" class="cakeIcon">
+        <img src="../../assets/images/bingtu_04.gif" class="cakeIcon">
       </div>
       <div class="left2">
         <p class="icon-top">
@@ -28,7 +28,7 @@
         <p class="textState">
           苏州<span style="color: #fe7f35">本月</span>二手房房源<br/>挂牌均价 （元/㎡）
         </p>
-        <img src="../assets/images/zhutu_06.gif" class="cakeIcon">
+        <img src="../../assets/images/zhutu_06.gif" class="cakeIcon">
       </div>
       <div class="left3">
         <p class="icon-top">
@@ -42,7 +42,7 @@
         <p class="textState">
           苏州<span style="color: #fe7f35">今日</span>新增客房<br/>比例
         </p>
-        <img src="../assets/images/zhexiantu_08.gif" class="cakeIcon">
+        <img src="../../assets/images/zhexiantu_08.gif" class="cakeIcon">
       </div>
     </div>
 

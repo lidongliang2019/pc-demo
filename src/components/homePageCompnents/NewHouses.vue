@@ -76,7 +76,7 @@
         </div>
       </div>
       <div class="imageBox">
-        <img src="../assets/images/huxingtu_15.gif" class="newHouseImagesSon">
+        <img src="../../assets/images/huxingtu_15.gif" class="newHouseImagesSon">
       </div>
     </div>
 <!--    <img class="blackImage" src="../assets/images/diTu_02.gif">-->

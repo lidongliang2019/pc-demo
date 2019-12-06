@@ -1,6 +1,6 @@
 <template>
 <div class="container">
-<img  class="AdvertisingImage" src="../assets/images/guanggaowei_06.gif">
+<img  class="AdvertisingImage" src="../../assets/images/guanggaowei_06.gif">
   <div class="rightText">
     建发阳光城璞悦
     <br/>

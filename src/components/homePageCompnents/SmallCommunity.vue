@@ -33,7 +33,7 @@
 
       </div>
       <div class="rightImage">
-        <img src="../assets/images/xiaoqutu_03.gif">
+        <img src="../../assets/images/xiaoqutu_03.gif">
       </div>
     </div>
 

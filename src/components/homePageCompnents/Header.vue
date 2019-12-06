@@ -25,7 +25,7 @@
               </span>
             </div>
           </div>
-          <img class="logo-icon" src="../assets/images/yuanhao.gif">
+          <img class="logo-icon" src="../../assets/images/yuanhao.gif">
           <div class="btn">
             <el-button class="position-bt" icon="el-icon-caret-bottom" type="text" style="color: black">{{position}}
             </el-button>

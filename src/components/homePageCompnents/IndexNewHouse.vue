@@ -18,7 +18,7 @@
     <div class="headTitle">
       <p style="color: #fe7f35;font-size:20px;font-weight: 600;letter-spacing: 3px">
     <span>
-      <img src="../assets/images/loufangIcon_11.gif" class="houseIcon">
+      <img src="../../assets/images/loufangIcon_11.gif" class="houseIcon">
     </span>
         新房<span style="color: black">首推</span>
       </p>
@@ -101,7 +101,7 @@
         </div>
       </div>
       <div class="imageBox">
-        <img src="../assets/images/huxingtu_15.gif" class="newHouseImages">
+        <img src="../../assets/images/huxingtu_15.gif" class="newHouseImages">
       </div>
     </div>
     <NewHouses class="finallyNewHouse"></NewHouses>
