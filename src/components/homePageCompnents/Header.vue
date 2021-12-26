@@ -5,7 +5,7 @@
         <el-col :span="24">
           <div class="grid-content bg-purple-dark">
             <div class="tab-btn">
-              <el-button type="text" class="navigationBtn" style="color: black;margin-left: 20px" v-for="tabButton in tabButtons">{{tabButton.tabBtn}}
+              <el-button type="text" class="navigationBtn" style="color: black;margin-left: 20px" v-for="(tabButton,index) in tabButtons" :key="index">{{tabButton.tabBtn}}
               </el-button>
               <span class="pB">
                 <el-dropdown>
